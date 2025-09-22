@@ -4,6 +4,7 @@ let lblMessage = document.querySelector(".message");
 console.log(lblMessage);
 console.log(lblMessage.textContent)
 
+
 const lblNumber = document.querySelector(".number");
 console.log(lblNumber);
 
@@ -20,7 +21,6 @@ const secretNumber = Math.trunc(Math.random() * 20);
 console.log(secretNumber);
 
 let startScore = 20;
-
 
 function testNumber() {
     console.log(secretNumber);
